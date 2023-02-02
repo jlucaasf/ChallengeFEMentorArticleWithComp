@@ -1,0 +1,197 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-width: 100vw;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+.imagemMain {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 10px 0px 00px 10px;
+}
+
+.boxDireita {
+
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 0px 10px 10px 0px;
+
+
+}
+
+.tituloMain {
+    font-size: 1.6rem;
+    color: hsl(217, 19%, 35%);
+    padding-bottom: 1rem;
+
+}
+
+.textoMain {
+    font-size: 1rem;
+    color: hsl(214, 17%, 51%);
+}
+
+.imagemAvatar {
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    position: fixed;
+    z-index: +1;
+    margin-top: 13.5rem;
+}
+
+.textoAvatar {
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+
+
+}
+
+.textoAvatarData {
+    margin-top: .1rem;
+    margin-left: 4.5rem;
+    color: hsl(212, 23%, 69%);
+
+}
+
+.botaoShare {
+    width: 20px;
+    height: 20px;
+    
+
+
+}
+
+.bordaShare {
+    background-color: hsl(210, 46%, 95%);    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14rem;
+    margin-left: 400px;
+    border: none;
+}
+
+.bordaShare:hover {
+    background-color: hsl(217, 19%, 35%);
+    cursor: pointer;
+
+}
+
+.bordaShareClick:hover {
+    background-color: hsl(217, 19%, 35%);
+    cursor: pointer;
+
+}
+
+.bordaShare:hover .botaoShare {   
+    filter: brightness(95);
+}
+
+
+.bordaShareClick {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14rem;
+    margin-left: 400px;
+    border: none;
+}
+
+.botaoShareClick {
+    width: 20px;
+    height: 20px;
+    filter: brightness(95);
+}
+
+.balaoOff {
+    background-color: hsl(217, 19%, 35%);
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left: 675px;
+    margin-top: 55px;
+    border-radius: 10px;
+    color: white;    
+    visibility: hidden;
+
+}
+
+.balaoOn {
+    background-color: hsl(217, 19%, 35%);
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left: 675px;
+    margin-top: 55px;
+    border-radius: 10px;
+    color: white;   
+
+}
+
+
+
+.iconeBalao {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+
+.iconeBalao:hover {
+    cursor: pointer;
+}
+
+.textBalao {
+    margin-left: 45px;
+    letter-spacing: 3px;
+    font-size: .9rem;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.balaoOn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid hsl(217, 19%, 35%);
+    bottom: -20px;
+    left: 45%;
+}
+
